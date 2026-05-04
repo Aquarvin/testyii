@@ -1,0 +1,3 @@
+CREATE DATABASE IF NOT EXISTS `yii_db` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+GRANT ALL PRIVILEGES ON `yii_db`.* TO 'yii_user'@'%';
+FLUSH PRIVILEGES;
