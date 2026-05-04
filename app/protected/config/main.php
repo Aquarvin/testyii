@@ -4,10 +4,14 @@ return [
     'name' => 'My Yii Application',
     'defaultController' => 'site',
 
+    'import' => [
+        'application.models.*',
+    ],
+
     'components' => [
         'db' => [
             'connectionString' => sprintf(
-                'mysql:host=%s;port=%s;dbname=%s',
+                'mysql:host=%s;port=%s;dbname=%s;charset=utf8mb4',
                 getenv('DB_HOST') ?: 'db',
                 getenv('DB_PORT') ?: '3306',
                 getenv('DB_NAME') ?: 'yii_db'
