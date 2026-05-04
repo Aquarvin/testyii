@@ -18,7 +18,7 @@ $typeIcon = [
         </h2>
         <p class="text-sm text-gray-500 mt-0.5">
             <?php echo CHtml::encode($realtor['name']); ?> &middot;
-            <?php echo count($listings); ?> об'єктів
+            <?php echo count($listings); ?> оголошень
         </p>
     </div>
     <div class="flex items-center gap-2 text-sm text-gray-500">

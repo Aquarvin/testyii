@@ -18,7 +18,6 @@ return [
             ),
             'username'         => getenv('DB_USER') ?: 'yii_user',
             'password'         => getenv('DB_PASSWORD') ?: 'yii_password',
-            'charset'          => 'utf8mb4',
             'enableProfiling'  => YII_DEBUG,
             'enableParamLogging' => YII_DEBUG,
         ],

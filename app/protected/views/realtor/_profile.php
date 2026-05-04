@@ -18,7 +18,7 @@ $hasHalfStar  = ($realtor['rating'] - $fullStars) >= 0.5;
                         bg-gradient-to-br from-blue-400 to-violet-600
                         flex items-center justify-center select-none">
                 <span class="text-white text-3xl font-bold tracking-wide">
-                    <?php echo $initials; ?>
+                    <?php echo CHtml::encode($initials); ?>
                 </span>
             </div>
         </div>
